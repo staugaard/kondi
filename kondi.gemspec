@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.files         = Dir.glob("lib/**/*") + ["README.md"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "kondi"
+  gem.name          = "motion_kondi"
   gem.require_paths = ["lib"]
   gem.version       = Kondi::VERSION
 end
